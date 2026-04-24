@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import ImgFabbri from "../../assets/img/img-work/Fabbri.jpg"
+import ImgFabbri from "../../assets/img/img-work/fabbri.jpg"
 import FlameBrand from "../../assets/img/flame-brand.svg"
 import ImgResistance from "../../assets/img/img-work/cd.jpg"
 import FlameIllustration from "../../assets/img/flame-illustrazione.svg"
@@ -141,7 +141,7 @@ const Work = () => {
                             <div className="col" style={{ height: "700px" }}>
                                 <div className="text-white h-100">
                                     <Link to="/fabbri">
-                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src="../src/assets/img/img-work/fabbri.jpg" alt="Fabbri" />
+                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgFabbri} alt="Fabbri" />
                                     </Link>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@ const Work = () => {
                             <div className="col" style={{ height: "500px" }}>
                                 <div className="text-white h-100">
                                     <Link to="/mostresistance">
-                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src="../src/assets/img/img-work/cd.jpg" alt="Fabbri" />
+                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgResistance} alt="Fabbri" />
                                     </Link>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@ const Work = () => {
                             <div className="col" style={{ height: "500px" }}>
                                 <div className="text-white h-100">
                                     <Link to="/">
-                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src="../src/assets/img/img-work/fido.jpg" alt="Fabbri" />
+                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgFido} alt="Fabbri" />
                                     </Link>
                                 </div>
                             </div>
@@ -165,7 +165,7 @@ const Work = () => {
                             <div className="col" style={{ height: "400px" }}>
                                 <div className="text-white h-100">
                                     <Link to="/">
-                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src="../src/assets/img/img-work/adv.jpg" alt="Fabbri" />
+                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgAdv} alt="Fabbri" />
                                     </Link>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@ const Work = () => {
                             <div className="col" style={{ height: "400px" }}>
                                 <div className="text-white h-100">
                                     <Link to="/">
-                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src="../src/assets/img/img-work/lumia.jpg" alt="Fabbri" />
+                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgLumia} alt="Fabbri" />
                                     </Link>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@ const Work = () => {
                             <div className="col" style={{ height: "400px" }}>
                                 <div className="text-white h-100">
                                     <Link to="/">
-                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src="../src/assets/img/img-work/illustrazioni.jpg" alt="Fabbri" />
+                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgIllustrazioni} alt="Fabbri" />
                                     </Link>
                                 </div>
                             </div>
