@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import FlameBrand from "../../src/assets/img/flame-brand.svg"
+import FlameBrand from "../../src/assets/img/Flame-brand.svg"
 
 import imgRcPage1 from "../../src/assets/RadiciCulturali-img/rc-1.jpg"
 import imgRcPage2 from "../../src/assets/RadiciCulturali-img/rc-2.jpg"

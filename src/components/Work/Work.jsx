@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
 import ImgFabbri from "../../assets/img/img-work/fabbri.jpg"
-import FlameBrand from "../../assets/img/flame-brand.svg"
+import FlameBrand from "../../assets/img/Flame-brand.svg"
 import ImgResistance from "../../assets/img/img-work/cd.jpg"
-import FlameIllustration from "../../assets/img/flame-illustrazione.svg"
+import FlameIllustration from "../../assets/img/Flame-illustrazione.svg"
 import ImgFido from "../../assets/img/img-work/fido.jpg"
-import FlameSocial from "../../assets/img/flame-social.svg"
+import FlameSocial from "../../assets/img/Flame-social.svg"
 import ImgAdv from "../../assets/img/img-work/adv.jpg"
 import ImgLumia from "../../assets/img/img-work/lumia.jpg"
 import ImgIllustrazioni from "../../assets/img/img-work/illustrazioni.jpg"

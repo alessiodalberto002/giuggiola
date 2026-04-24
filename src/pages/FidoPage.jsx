@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import FlameSocial from "../../src/assets/img/flame-social.svg"
+import FlameSocial from "../../src/assets/img/Flame-social.svg"
 import imgFidoPage1 from "../../src/assets/Fido-img/Fido-1.jpg"
 import imgFidoPage2 from "../../src/assets/Fido-img/Fido-2.jpg"
 import imgFidoPage3 from "../../src/assets/Fido-img/Fido-3.jpg"
