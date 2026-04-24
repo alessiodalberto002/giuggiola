@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 
-import ImgFabbri from "../../../src/assets/img/img-work/Fabbri.jpg"
-import FlameBrand from "../../../src/assets/img/flame-brand.svg"
-import ImgResistance from "../../../src/assets/img/img-work/cd.jpg"
-import FlameIllustration from "../../../src/assets/img/flame-illustrazione.svg"
-import ImgFido from "../../../src/assets/img/img-work/Fido.jpg"
-import FlameSocial from "../../../src/assets/img/flame-social.svg"
-import ImgAdv from "../../../src/assets/img/img-work/adv.jpg"
-import ImgLumia from "../../../src/assets/img/img-work/lumia.jpg"
-import ImgIllustrazioni from "../../../src/assets/img/img-work/illustrazioni.jpg"
+import ImgFabbri from "../../src/assets/img/img-work/Fabbri.jpg"
+import FlameBrand from "../../src/assets/img/flame-brand.svg"
+import ImgResistance from "../../src/assets/img/img-work/cd.jpg"
+import FlameIllustration from "../../src/assets/img/flame-illustrazione.svg"
+import ImgFido from "../../src/assets/img/img-work/Fido.jpg"
+import FlameSocial from "../../src/assets/img/flame-social.svg"
+import ImgAdv from "../../src/assets/img/img-work/adv.jpg"
+import ImgLumia from "../../src/assets/img/img-work/lumia.jpg"
+import ImgIllustrazioni from "../../src/assets/img/img-work/illustrazioni.jpg"
 
 
 
