@@ -1,0 +1,434 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Gelica-ExtraLight {
+  font-family: "gelica", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.Gelica-ExtraLight-Italic {
+  font-family: "gelica", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.Gelica-Light {
+  font-family: "gelica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.Gelica-Light-Italic {
+  font-family: "gelica", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.Gelica-Regular {
+  font-family: "gelica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Gelica-Italic {
+  font-family: "gelica", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.Gelica-Medium {
+  font-family: "gelica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Gelica-Medium-Italic {
+  font-family: "gelica", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.Gelica-SemiBold {
+  font-family: "gelica", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.Gelica-SemiBold-Italic {
+  font-family: "gelica", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.Gelica-Bold {
+  font-family: "gelica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Gelica-Bold-Italic {
+  font-family: "gelica", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.Gelica-Black {
+  font-family: "gelica", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.Gelica-Black-Italic {
+  font-family: "gelica", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+:root {
+  font-family: "Manrope", sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.top-hero {
+  top: 30%
+}
+
+.bottom-img-hero {
+  bottom: -1px;
+}
+
+.rounded-bg-text {
+  border-radius: 10px;
+}
+
+/* SezioneAbout.css */
+
+.hero-background-section {
+  /* 1. Il percorso deve puntare alla cartella assets */
+  background-image: url('../src/assets/img/bg-section.svg');
+
+  /* 2. Copre tutta l'area senza deformarsi */
+  background-size: cover;
+
+  /* 4. Evita che l'immagine si ripeta se la sezione è molto alta */
+  background-repeat: no-repeat;
+
+  /* 5. Definisci un'altezza minima (o usa padding) per vedere lo sfondo */
+  min-height: 100vh;
+  width: 100%;
+
+  /* 6. Serve per gestire gli elementi interni */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.padding-about {
+  padding: 150px 0;
+}
+
+.width-text-sx {
+  width: 1200px;
+}
+
+.margin-top-text-card {
+  margin-top: 100px;
+}
+
+.border-radius-card {
+  border-radius: 20px;
+}
+
+
+
+.work-background-section {
+  /* 1. Il percorso deve puntare alla cartella assets */
+  background-image: url('../src/assets/img/bg-work.svg');
+
+  /* 2. Copre tutta l'area senza deformarsi */
+  background-size: cover;
+
+  /* 5. Definisci un'altezza minima (o usa padding) per vedere lo sfondo */
+  min-height: 140vh;
+
+  /* 6. Serve per gestire gli elementi interni */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* bottom: 20px; */
+  z-index: 1;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 10px;
+}
+
+.work1 {
+  grid-column: span 4 / span 4;
+  grid-row: span 8 / span 8;
+  border-radius: 20px;
+}
+
+.work2 {
+  grid-column: span 5 / span 5;
+  grid-row: span 6 / span 6;
+  grid-column-start: 5;
+  border-radius: 20px;
+}
+
+.work3 {
+  grid-column: span 3 / span 3;
+  grid-row: span 6 / span 6;
+  grid-column-start: 10;
+  border-radius: 20px;
+}
+
+.work5 {
+  grid-column: span 5 / span 5;
+  grid-row: span 6 / span 6;
+  grid-column-start: 8;
+  grid-row-start: 7;
+  border-radius: 20px;
+}
+
+.work6 {
+  grid-column: span 3 / span 3;
+  grid-row: span 6 / span 6;
+  grid-column-start: 5;
+  grid-row-start: 7;
+  border-radius: 20px;
+}
+
+.work7 {
+  grid-column: span 4 / span 4;
+  grid-row: span 4 / span 4;
+  grid-row-start: 9;
+  border-radius: 20px;
+}
+
+
+/* Fondamentale: il Link deve occupare tutto lo spazio del div genitore */
+.card-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* Taglia l'immagine se zoomma e mantiene i bordi arrotondati */
+  border-radius: 21px;
+}
+
+/* Transizione fluida per l'immagine */
+.card-container img {
+  transition: transform 0.5s ease;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Sfondo nero 70% */
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  padding: 20px;
+  /* Evita che il testo tocchi i bordi su mobile */
+}
+
+.overlay-text {
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+/* Effetti Hover */
+.card-container:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-container:hover img {
+  transform: scale(1.05);
+  /* Leggero zoom dell'immagine */
+}
+
+.padding-single-service {
+  padding: 200px 0;
+}
+
+.position-line-about {
+  top: 300px;
+  left: 580px;
+}
+
+.width-lumia-desktop {
+  width: 610px;
+}
+
+.padding-right-desktop-lumia {
+  padding-right: 30px;
+}
+
+.width-desktop-btn-hero {
+  width: 25%;
+}
+
+/* --- STILE MOBILE (Sotto i 992px) --- */
+@media (max-width: 991.98px) {
+
+
+  .menu-full-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9998;
+
+    /* Animazione */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+    /* Entra da destra */
+    transition: all 0.4s ease-in-out;
+  }
+
+  .menu-full-screen.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  /* Cambia l'icona in una X quando è attivo */
+  .navbar-toggler.active .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' d='M6 6L24 24M24 6L6 24'/%3E%3C/svg%3E") !important;
+  }
+
+  .work-background-section {
+    min-height: auto;
+    padding: 150px 0;
+  }
+
+  .height-bg-beige {
+    min-height: 3555px;
+  }
+
+  .img-hero-resp {
+    width: 100%;
+    height: 100%;
+  }
+
+  .margin-card-service {
+    margin-bottom: 100px;
+  }
+
+  .padding-about {
+    padding: 20px;
+  }
+
+  .hidden-mobile-work {
+    display: none;
+  }
+
+  .padding-methods-mobile {
+    padding: 100px 0;
+  }
+
+  .column-methods-mobile {
+    flex-direction: column;
+  }
+
+  .shadow-pos-methods-mobile {
+    display: none;
+  }
+
+  .padding-methods-mobile {
+    padding: 20px;
+  }
+
+  .text-center-mobile {
+    text-align: center;
+  }
+
+  .margin-methods-mobile {
+    margin-left: 0px;
+  }
+
+  .padding-single-service-mobile {
+    padding: 150px 0;
+  }
+
+  .position-line-about {
+    display: none;
+  }
+
+  .padding-resistance-mobile {
+    padding: 20px;
+  }
+
+  .margin-top-lumia-mobile {
+    margin-top: 30px;
+  }
+
+  .width-lumia-mobile {
+    width: 100%;
+  }
+
+  .padding-right-mobile-lumia {
+    padding-right: 0;
+  }
+
+  .width-mobile-btn-hero {
+    width: 40%;
+  }
+
+}
+
+
+/* --- STILE DESKTOP (Sopra i 992px) --- */
+@media (min-width: 992px) {
+  .menu-full-screen {
+    display: none !important;
+    /* Distruggi l'overlay su desktop */
+  }
+
+
+
+  .hidden-desktop-work {
+    display: none;
+  }
+}
