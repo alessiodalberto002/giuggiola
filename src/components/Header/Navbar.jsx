@@ -64,21 +64,21 @@ const Navbar = () => {
                         {navLinks.map((link) => (
                             <li className="mb-4 Gelica-Black" key={link.id}>
                                 {/* SOSTITUITO <a> CON <Link> */}
-                                <Link
+                                <a
                                     className="display-4 fw-bold text-decoration-none"
                                     style={{ color: "#F6AC60" }}
-                                    to={link.path}
+                                    href={link.path}
                                     onClick={toggleMenu}
                                 >
                                     {link.linkName}
-                                </Link>
+                                </a>
                             </li>
                         ))}
                     </ul>
 
                     <div className="text-center">
                         <div className="m-0">
-                            <Logo image={logoImage} />
+                            <Logo image={logoImage}/>
                         </div>
                         <h1 className="Gelica-Black text-light m-0 fw-bold mb-3" style={{fontSize:"35px"}}>
                             Diamo vita alla tua visione <span style={{ color: "#F6AC60" }}>insieme.</span>
