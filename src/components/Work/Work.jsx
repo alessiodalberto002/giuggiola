@@ -10,24 +10,22 @@ import ImgAdv from "../../assets/img/img-work/adv.jpg"
 import ImgLumia from "../../assets/img/img-work/lumia.jpg"
 import ImgIllustrazioni from "../../assets/img/img-work/illustrazioni.jpg"
 
-
-
-
 const Work = () => {
 
     return (
-
         <>
-
-
             <section id="lavori">
 
                 <div className="w-100 height-bg-beige" style={{ background: "#F8EEE0", position: "absolute", height: "140vh" }}></div>
 
+                {/* Versione Desktop */}
                 <div className="work-background-section hidden-mobile-work">
                     <div className="container d-flex flex-column justify-content-center align-items-center h-100">
                         <div style={{ marginTop: "80px", paddingBottom: "70px" }}>
-                            <h1 className="text-light"><span className="Gelica-Light" style={{ fontSize: "82px" }}>I miei</span> <span className="Gelica-Black" style={{ fontSize: "82px", background: "#B5C36A", borderRadius: "21px", padding: "3px 10px" }}>Lavori</span></h1>
+                            <h1 className="text-light">
+                                <span className="Gelica-Light" style={{ fontSize: "82px" }}>I miei</span>{" "}
+                                <span className="Gelica-Black" style={{ fontSize: "82px", background: "#B5C36A", borderRadius: "21px", padding: "3px 10px" }}>Lavori</span>
+                            </h1>
                         </div>
                         <div className="work-grid w-100" style={{ height: "900px" }}>
 
@@ -38,7 +36,7 @@ const Work = () => {
                                     <div className="card-overlay">
                                         <div className="overlay-text">
                                             <h1 className="Gelica-Black m-0 p-0">Fabbri</h1>
-                                            <div className="d-flex  align-items-center gap-2">
+                                            <div className="d-flex align-items-center gap-2">
                                                 <img src={FlameBrand} alt="Sfondo" style={{ width: "15px", height: "15px" }} />
                                                 <p className="m-0 p-0">Brand Identity</p>
                                             </div>
@@ -86,7 +84,7 @@ const Work = () => {
                                     <div className="card-overlay">
                                         <div className="overlay-text">
                                             <h1 className="Gelica-Black m-0 p-0">Radici culturali</h1>
-                                            <div className="d-flex  align-items-center gap-2">
+                                            <div className="d-flex align-items-center gap-2">
                                                 <img src={FlameBrand} alt="Sfondo" style={{ width: "15px", height: "15px" }} />
                                                 <p className="m-0 p-0">Brand Identity</p>
                                             </div>
@@ -131,10 +129,14 @@ const Work = () => {
                     </div>
                 </div>
 
+                {/* Versione Mobile */}
                 <div className="work-background-section hidden-desktop-work">
                     <div className="container">
                         <div className="text-center" style={{ paddingBottom: "70px" }}>
-                            <h1 className="text-light"><span className="Gelica-Light" style={{ fontSize: "82px" }}>I miei</span> <span className="Gelica-Black" style={{ fontSize: "82px", background: "#B5C36A", borderRadius: "21px", padding: "3px 10px" }}>Lavori</span></h1>
+                            <h1 className="text-light">
+                                <span className="Gelica-Light" style={{ fontSize: "82px" }}>I miei</span>{" "}
+                                <span className="Gelica-Black" style={{ fontSize: "82px", background: "#B5C36A", borderRadius: "21px", padding: "3px 10px" }}>Lavori</span>
+                            </h1>
                         </div>
                         <div className="row row-cols-1 g-3">
 
@@ -149,59 +151,50 @@ const Work = () => {
                             <div className="col" style={{ height: "500px" }}>
                                 <div className="text-white h-100">
                                     <Link to="/mostresistance">
-                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgResistance} alt="Fabbri" />
+                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgResistance} alt="Most Resistance" />
                                     </Link>
                                 </div>
                             </div>
 
                             <div className="col" style={{ height: "500px" }}>
                                 <div className="text-white h-100">
-                                    <Link to="/">
-                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgFido} alt="Fabbri" />
+                                    <Link to="/fido">
+                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgFido} alt="Fido" />
                                     </Link>
                                 </div>
                             </div>
 
                             <div className="col" style={{ height: "400px" }}>
                                 <div className="text-white h-100">
-                                    <Link to="/">
-                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgAdv} alt="Fabbri" />
+                                    <Link to="/rc">
+                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgAdv} alt="Radici Culturali" />
                                     </Link>
                                 </div>
                             </div>
 
                             <div className="col" style={{ height: "400px" }}>
                                 <div className="text-white h-100">
-                                    <Link to="/">
-                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgLumia} alt="Fabbri" />
+                                    <Link to="/lumia">
+                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgLumia} alt="Lumia" />
                                     </Link>
                                 </div>
                             </div>
 
                             <div className="col" style={{ height: "400px" }}>
                                 <div className="text-white h-100">
-                                    <Link to="/">
-                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgIllustrazioni} alt="Fabbri" />
+                                    <Link to="/ri">
+                                        <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgIllustrazioni} alt="Illustrazioni" />
                                     </Link>
                                 </div>
                             </div>
-
-
 
                         </div>
                     </div>
                 </div>
 
             </section>
-
-
-
         </>
-
-
-
     )
-
 }
 
-export default Work
+export default Work;
