@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; // IMPORTA LINK
 import Logo from "../Logo";
 import logoImage from "../../../src/assets/img/logo-giuggiola_prova.png";
+import FlameFooter from "../../assets/img/flame-footer.svg"
 
 const navLinks = [
     { id: 1, linkName: "Home", path: "/#home" },
@@ -86,7 +87,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="col-12 col-md-auto d-flex align-items-center justify-content-center gap-2">
-                        <img src="../src/assets/img/flame-footer.svg" alt="Sfondo" style={{ width: "25px", height: "25px" }} />
+                        <img src={FlameFooter} alt="Sfondo" style={{ width: "25px", height: "25px" }} />
                         <a
                             href="mailto:giuggiola.studiocreativo@gmail.com"
                             className="text-light text-decoration-none"
@@ -97,7 +98,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="col-12 col-md-auto d-flex align-items-center justify-content-center gap-2 mt-2">
-                        <img src="../src/assets/img/flame-footer.svg" alt="Sfondo" style={{ width: "25px", height: "25px" }} />
+                        <img src={FlameFooter} alt="Sfondo" style={{ width: "25px", height: "25px" }} />
                         <a
                             href="https://wa.me/393337591610"
                             target="_blank"
