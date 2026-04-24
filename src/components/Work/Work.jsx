@@ -32,7 +32,7 @@ const Work = () => {
                             {/* Card 1 */}
                             <div className="work1 w-100">
                                 <Link to="/fabbri" className="card-container">
-                                    <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "21px" }} src={ImgFabbri} alt="Fabbri" />
+                                    <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "21px" }} src={ImgFabbri} alt="FabbriImg" />
                                     <div className="card-overlay">
                                         <div className="overlay-text">
                                             <h1 className="Gelica-Black m-0 p-0">Fabbri</h1>
