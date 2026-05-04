@@ -1,4 +1,5 @@
 import bgHero from "../../../src/assets/img/bg-hero.jpg"
+import bgHeroMobile from "../../../src/assets/img/bg-hero copia.jpg"
 
 const Hero = () => {
     return (
@@ -6,11 +7,17 @@ const Hero = () => {
 
             {/* BACKGROUND IMAGE - Ora copre tutto il contenitore */}
             <div className="w-100 position-absolute bottom-img-hero z-n1">
-                <img
-                    className="w-100 h-100 img-hero-resp"
-                    src={bgHero}
-                    alt="Background Hero"
-                />
+                <picture>
+                    {/* Immagine per Mobile (es. sotto i 768px) */}
+                    <source media="(max-width: 767px)" srcSet={bgHeroMobile} />
+
+                    {/* Immagine per Desktop (default) */}
+                    <img
+                        className="w-100 h-100 img-hero-resp"
+                        src={bgHero}
+                        alt="Background Hero"
+                    />
+                </picture>
             </div>
 
             <div className="container position-relative" style={{ bottom: "100px" }}>
