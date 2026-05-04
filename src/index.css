@@ -303,6 +303,10 @@ a {
   width: 25%;
 }
 
+.text-about-desktop {
+    font-size: 82px;
+}
+
 /* --- STILE MOBILE (Sotto i 992px) --- */
 @media (max-width: 991.98px) {
 
@@ -414,6 +418,10 @@ a {
 
   .width-mobile-btn-hero {
     width: 40%;
+  }
+
+  .text-about-mobile {
+    font-size: 60px;
   }
 
 }

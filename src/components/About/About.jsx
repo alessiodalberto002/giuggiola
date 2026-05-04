@@ -13,7 +13,7 @@ const About = () => {
                 <div className="row align-items-center mb-5 gy-4">
                     <div className="col-12 col-lg-6 order-2 order-lg-1">
                         <div className="content-wrapper">
-                            <h1 className="display-4 fw-bold"><span className="Gelica-Light text-light" style={{fontSize:"82px"}}>About</span> <span className="d-inline-block Gelica-Black text-light position-relative" style={{background:"#B5C36A", fontSize:"82px", padding:"3px 15px", borderRadius:"25px", transform: "rotate(-10deg)"}}>me</span></h1>
+                            <h1 className="fw-bold"><span className="Gelica-Light text-light text-about-desktop text-about-mobile">About</span> <span className="d-inline-block Gelica-Black text-light position-relative text-about-desktop text-about-mobile" style={{background:"#B5C36A", padding:"3px 15px", borderRadius:"25px", transform: "rotate(-10deg)"}}>me</span></h1>
                             <div className="position-absolute position-line-about position-line-about-mobile">
                                 <img className="w-100 h-100" src={lineAbout} alt="" />
                             </div>
@@ -44,8 +44,8 @@ const About = () => {
 
                     <div className="col-12 col-lg-6">
                         <div className="content-wrapper">
-                            <h1 className="display-4 fw-bold"><span className="Gelica-Light text-light" style={{fontSize:"82px"}}>Perchè</span></h1> 
-                            <h1 style={{ marginTop:"-20px", marginBottom:"25px"}}><span className="d-inline-block Gelica-Black text-light display-4" style={{background:"#B5C36A", fontSize:"82px", padding:"3px 15px", borderRadius:"25px", transform: "rotate(-5deg)"}}>giuggiola</span> <span className="Gelica-Light text-light" style={{fontSize:"90px"}}>?</span></h1>
+                            <h1 className="fw-bold"><span className="Gelica-Light text-light text-about-desktop text-about-mobile">Perchè</span></h1> 
+                            <h1 style={{ marginTop:"-20px", marginBottom:"25px"}}><span className="d-inline-block Gelica-Black text-light text-about-desktop text-about-mobile" style={{background:"#B5C36A", padding:"3px 15px", borderRadius:"25px", transform: "rotate(-5deg)"}}>giuggiola</span> <span className="Gelica-Light text-light text-about-desktop text-about-mobile">?</span></h1>
                             <h2 className="h3 mb-4">È una parola che suona leggera, piena e felice.</h2>
                             <p className="lead">
                                 Mi ricorda l’infanzia, le giornate in campagna, l’aria fresca, la spensieratezza di quando tutto era semplice.
