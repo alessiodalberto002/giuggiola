@@ -41,7 +41,7 @@ const MostResistancePortfolio = () => {
                     {/* Testo About e Titolo */}
                     <div className="col-md-7 order-1 order-md-2 ps-md-5">
                         <h2 className="mb-0 Gelica-Light font-fabbri-desktop font-fabbri-mobile">About</h2>
-                        <h1 className="text-white mb-4 Gelica-Black" style={{ backgroundColor: '#c5d891', display: 'inline-block', padding: '0 15px', borderRadius: '10px', fontSize:"75px" }}>
+                        <h1 className="text-white mb-4 Gelica-Black font-fabbri-desktop font-fabbri-mobile" style={{ backgroundColor: '#c5d891', display: 'inline-block', padding: '0 15px', borderRadius: '10px'}}>
                             Most resistance
                         </h1>
 

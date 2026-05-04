@@ -30,7 +30,7 @@ const LumiaPage = () => {
                     <div className="col-12 col-lg-6 d-flex flex-column justify-content-between" style={{ backgroundColor: '#fdf7e9' }}>
 
                         {/* Blocco Testo */}
-                        <div className="mb-5 mt-lg-4 p-5">
+                        <div className="mb-3 mt-lg-4 p-3">
                             <h1 className="m-0 p-0 Gelica-Light font-fabbri-desktop font-fabbri-mobile">About</h1>
                             <h1 className="Gelica-Black text-light" style={{background: '#9F275E', width: "fit-content", padding: "2px 30px", borderRadius: "21px" ,fontSize:"75px", marginTop:"-10px"}}>Lumia</h1>
 

@@ -304,7 +304,7 @@ a {
 }
 
 .text-about-desktop {
-    font-size: 82px;
+  font-size: 82px;
 }
 
 .padding-desktop {
@@ -313,6 +313,14 @@ a {
 
 .font-fabbri-desktop {
   font-size: 75px;
+}
+
+.img-rc-desktop {
+  height: 500px;
+}
+
+.img-rc-desktop-1 {
+  height: 450px;
 }
 
 /* --- STILE MOBILE (Sotto i 992px) --- */
@@ -428,13 +436,19 @@ a {
     width: 40%;
   }
 
-  .text-about-mobile, .font-fabbri-mobile {
+  .text-about-mobile,
+  .font-fabbri-mobile {
     font-size: 60px;
   }
 
   .padding-mobile {
     padding: 150px 20px;
   }
+
+  .img-rc-mobile {
+    height: 370px;
+  }
+
 
 }
 

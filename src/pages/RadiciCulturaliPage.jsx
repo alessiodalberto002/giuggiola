@@ -87,7 +87,7 @@ const RadiciCulturaliPage = () => {
             <div className="container mb-5">
                 <div className="row align-items-center">
                     <div className="col-md-5">
-                        <div style={{ height: '500px' }}>
+                        <div className='img-rc-desktop img-rc-mobile'>
                             <img className='h-100 w-100 object-fit-cover' style={{ borderRadius: "21px" }} src={imgRcPage4} alt="" />
                         </div>
                     </div>
@@ -108,7 +108,7 @@ const RadiciCulturaliPage = () => {
             <div className="container mb-5">
                 <div className="row g-4">
                     <div className="col-md-4">
-                        <div style={{ height: '450px' }}>
+                        <div className='img-rc-desktop-1 img-rc-mobile'>
                             <img className='h-100 w-100 object-fit-cover' style={{ borderRadius: "21px" }} src={imgRcPage5} alt="" />
                         </div>
                     </div>
