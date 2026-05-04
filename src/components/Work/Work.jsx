@@ -140,8 +140,8 @@ const Work = () => {
                         </div>
                         <div className="row row-cols-1 g-3">
 
-                            <div className="col" style={{ height: "700px" }}>
-                                <div className="text-white h-100">
+                            <div className="col" style={{ height: "600px" }}>
+                                <div className="text-white w-100 h-100">
                                     <Link to="/fabbri">
                                         <img className="w-100 h-100 object-fit-cover" style={{ borderRadius: "10px" }} src={ImgFabbri} alt="Fabbri" />
                                     </Link>
