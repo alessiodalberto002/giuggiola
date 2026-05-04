@@ -26,7 +26,7 @@ const MostResistancePortfolio = () => {
     return (
         <div style={{ backgroundColor: '#f2f0e4'}}>
 
-            <div className="container" style={{ minHeight: '100vh', color: '#4a4a4a', padding:"150px 0"}}>
+            <div className="container" style={{ minHeight: '100vh', color: '#4a4a4a', padding:"150px 20px"}}>
 
             {/* Sezione Superiore: Intro e Illustrazione Principale */}
             <div className="container mb-5">
@@ -40,7 +40,7 @@ const MostResistancePortfolio = () => {
 
                     {/* Testo About e Titolo */}
                     <div className="col-md-7 order-1 order-md-2 ps-md-5">
-                        <h2 className="mb-0 Gelica-Light" style={{fontSize:"75px"}}>About</h2>
+                        <h2 className="mb-0 Gelica-Light font-fabbri-desktop font-fabbri-mobile">About</h2>
                         <h1 className="text-white mb-4 Gelica-Black" style={{ backgroundColor: '#c5d891', display: 'inline-block', padding: '0 15px', borderRadius: '10px', fontSize:"75px" }}>
                             Most resistance
                         </h1>

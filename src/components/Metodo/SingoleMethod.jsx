@@ -4,7 +4,7 @@ const SingleMethod = ({ propsSingleMethod }) => {
 
         <>
             <div>
-                <h1 className="text-center-mobile Gelica-Black" style={{fontSize:"80px"}}>Metodo</h1>
+                <h1 className="text-center-mobile Gelica-Black text-about-desktop text-about-mobile mb-2">Metodo</h1>
                 <ul className="m-0 p-0">
                     {propsSingleMethod.map((props) => (
                         <li key={props.idSingleMethod} className={`d-flex mb-4 border-radius-card p-3 ${props.idSingleMethod % 2 !== 0 ? "text-light" : ""}`} style={{ background: props.bgSingleMethod }}>

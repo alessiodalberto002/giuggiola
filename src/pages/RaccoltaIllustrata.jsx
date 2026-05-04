@@ -28,7 +28,7 @@ const RaccoltaIllustrata = () => {
             <div className="container mb-5">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
-                        <h2 className="text-secondary mb-0 Gelica-Regular text-dark" style={{ fontSize: "75px" }}>About</h2>
+                        <h2 className="text-secondary mb-0 Gelica-Regular text-dark font-fabbri-desktop font-fabbri-mobile">About</h2>
                         <h1 className="display-3 fw-bold mb-4 Gelica-Black text-light" style={{ background: '#B5C36A', width: "fit-content", padding: "2px 15px", borderRadius: "21px", fontSize: "65px" }}>Raccolta Illustrata</h1>
                         <p className="lead">
                             Il disegno è sempre stato parte del mio percorso, una forma di espressione che nel tempo è cresciuta insieme a me.

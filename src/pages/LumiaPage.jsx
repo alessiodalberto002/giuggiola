@@ -8,7 +8,7 @@ const LumiaPage = () => {
     return (
         <section style={{ backgroundColor: '#fdf7e9', }}>
 
-            <div className="container overflow-hidden padding-Lumia-mobile" style={{ padding: "150px 20px" }}>
+            <div className="container overflow-hidden padding-Lumia-mobile " style={{ padding: "150px 20px" }}>
                 {/* row-cols-1 su mobile, row-cols-lg-2 su desktop per dividere lo schermo a metà */}
                 <div className="row g-0 align-items-stretch">
 
@@ -31,7 +31,7 @@ const LumiaPage = () => {
 
                         {/* Blocco Testo */}
                         <div className="mb-5 mt-lg-4 p-5">
-                            <h1 className="m-0 p-0 Gelica-Light" style={{fontSize:"75px"}}>About</h1>
+                            <h1 className="m-0 p-0 Gelica-Light font-fabbri-desktop font-fabbri-mobile">About</h1>
                             <h1 className="Gelica-Black text-light" style={{background: '#9F275E', width: "fit-content", padding: "2px 30px", borderRadius: "21px" ,fontSize:"75px", marginTop:"-10px"}}>Lumia</h1>
 
                             <div className="pe-lg-5">

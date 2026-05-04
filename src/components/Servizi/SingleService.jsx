@@ -6,7 +6,7 @@ const SingleService = ({ card }) => {
                    - row-cols-lg-3: 3 card per riga su PC (cambia in 4 o altro se ne hai di più)
                    - g-5: gestisce lo spazio (gutter) tra le colonne in modo responsive
                 */}
-                <div className="row row-cols-1 row-cols-lg-4 g-5 h-100 justify-content-center align-items-center">
+                <div className="row row-cols-1 row-cols-lg-4 g-3 h-100 justify-content-center align-items-center">
                     {card.map((singleCard) => (
                         <div key={singleCard.idCard} className="col d-flex justify-content-center margin-card-service">
 

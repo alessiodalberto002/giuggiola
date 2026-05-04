@@ -134,8 +134,8 @@ const Work = () => {
                     <div className="container">
                         <div className="text-center" style={{ paddingBottom: "70px" }}>
                             <h1 className="text-light">
-                                <span className="Gelica-Light" style={{ fontSize: "82px" }}>I miei</span>{" "}
-                                <span className="Gelica-Black" style={{ fontSize: "82px", background: "#B5C36A", borderRadius: "21px", padding: "3px 10px" }}>Lavori</span>
+                                <span className="Gelica-Light text-about-desktop text-about-mobile">I miei</span>{" "}
+                                <span className="Gelica-Black text-about-desktop text-about-mobile" style={{background: "#B5C36A", borderRadius: "21px", padding: "3px 10px" }}>Lavori</span>
                             </h1>
                         </div>
                         <div className="row row-cols-1 g-3">

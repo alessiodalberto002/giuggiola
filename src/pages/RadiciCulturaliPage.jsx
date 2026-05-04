@@ -30,7 +30,7 @@ const RadiciCulturaliPage = () => {
             <div className="container mb-5">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
-                        <h2 className="text-secondary mb-0 Gelica-Regular text-dark" style={{ fontSize: "75px" }}>About</h2>
+                        <h2 className="text-secondary mb-0 Gelica-Regular text-dark font-fabbri-desktop font-fabbri-mobile">About</h2>
                         <h1 className="display-3 fw-bold mb-4 Gelica-Black text-light" style={{ background: '#F6AC60', width: "fit-content", padding: "2px 15px", borderRadius: "21px", fontSize: "75px" }}>Radici Culturali</h1>
                         <p className="lead">
                             “Radici culturali” è il marchio turistico creato per il comune di <span className="fw-bold">Gagliano Aterno.</span>
