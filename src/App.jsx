@@ -8,12 +8,13 @@ import FidoPage from "./pages/FidoPage";
 import RadiciCulturaliPage from "./pages/RadiciCulturaliPage";
 import RaccoltaIllustrata from "./pages/RaccoltaIllustrata";
 import LumiaPage from "./pages/LumiaPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
       <Header />
-
+      <ScrollToTop />
       <Routes>
         {/* La tua Home attuale */}
         <Route path="/" element={<Main />} />
