@@ -23,7 +23,7 @@ const Header = () => {
                 <Link 
                     to="/" 
                     onClick={handleLogoClick}
-                    className="d-inline-block transition-transform active:scale-95" 
+                    className="d-inline-block transition-transform active:scale-95 w-[200px] md:w-[300px]" 
                     style={{ cursor: "pointer" }}
                 >
                     <Logo image={logoImage} />

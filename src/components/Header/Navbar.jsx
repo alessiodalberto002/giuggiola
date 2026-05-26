@@ -173,7 +173,7 @@ const Navbar = () => {
 
             {/* ── Hamburger (mobile) ── */}
             <button
-                className="lg:hidden border-0 bg-transparent p-2 z-[9999] relative focus:outline-none"
+                className="lg:hidden border-0 bg-transparent pe-4 z-[9999] relative focus:outline-none"
                 type="button"
                 onClick={toggleMenu}
                 aria-label={isOpen ? "Chiudi menu" : "Apri menu"}
