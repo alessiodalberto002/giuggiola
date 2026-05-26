@@ -173,7 +173,7 @@ const Hero = () => {
                             whileInView="visible"
                             exit="exit"
                             viewport={{ once: false, amount: 0.3 }}
-                            className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mt-4"
+                            className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6"
                         >
                             {/* CTA Principale: Parliamone (Colore pieno) */}
                             <a
