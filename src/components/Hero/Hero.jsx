@@ -121,7 +121,7 @@ const Hero = () => {
             </motion.div>
 
             {/* Contenuto della Hero */}
-            <div className="container mx-auto px-4 relative pb-52">
+            <div className="container mx-auto px-4 relative pb-32">
                 <div className="flex justify-center">
                     <div className="w-full max-w-5xl text-center">
 

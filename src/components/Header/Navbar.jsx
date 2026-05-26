@@ -228,17 +228,13 @@ const Navbar = () => {
 
                     {/* Logo + tagline */}
                     <div className="text-center my-6">
-                        <div className="flex justify-center mb-3">
+                        <div className="flex justify-center">
                             <Logo image={logoImage} />
                         </div>
-                        <h2 className="Gelica-Black text-white font-bold text-2xl sm:text-3xl mb-4 leading-snug">
-                            Diamo vita alla tua visione{" "}
-                            <span style={{ color: "#F6AC60" }}>insieme.</span>
-                        </h2>
                     </div>
 
                     {/* Contatti */}
-                    <div className="flex flex-col items-center gap-3 mt-2">
+                    <div className="flex flex-col items-center gap-3">
                         <div className="flex items-center gap-2">
                             <img src={FlameFooter} alt="" className="w-5 h-5 flex-shrink-0" />
                             <a
