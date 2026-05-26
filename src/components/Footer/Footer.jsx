@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="container pt-5 pb-4">
                     {/* Logo e Titolo basati su source 1 e 2 */}
                     <div className="text-center mb-5">
-                        <div className="mb-3">
+                        <div className="mb-3 flex justify-center">
                             <Logo image={logoImage} />
                         </div>
                         <h1 className="Gelica-Black text-light m-0 display-5 fw-bold">
