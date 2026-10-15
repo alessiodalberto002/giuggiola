@@ -31,19 +31,6 @@ const Footer = () => {
                             </a>
                         </div>
 
-                        {/* SEZIONE WHATSAPP */}
-                        <div className="col-12 col-md-auto d-flex align-items-center justify-content-center gap-2">
-                            <img src={FlameFooter} alt="Sfondo" style={{ width: "35px", height: "35px" }} />
-                            <a
-                                href="https://wa.me/393337591610"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-light text-decoration-none fs-5"
-                            >
-                                +39 3337591610
-                            </a>
-                        </div>
-                    </div>
 
                     {/* Social Icons basati su source 5 e 6 */}
                     <div className="d-flex justify-content-center align-items-center gap-5 pb-4" style={{ fontSize: "30px" }}>
