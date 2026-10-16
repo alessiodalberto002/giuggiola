@@ -245,7 +245,7 @@ const Navbar = () => {
                             </a>
                         </div>
 
-                    </div>
+            
 
                     {/* Social */}
                     <div className="flex justify-center gap-10 mt-6 text-3xl">
