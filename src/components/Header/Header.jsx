@@ -18,7 +18,7 @@ const Header = () => {
 
     return (
         <header className="fixed-top">
-            <div className="container d-flex justify-content-between align-items-center">
+            <div className="container d-flex justify-content-between align-items-center" >
                 
                 <Link 
                     to="/" 

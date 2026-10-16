@@ -245,17 +245,6 @@ const Navbar = () => {
                             </a>
                         </div>
 
-                        <div className="flex items-center gap-2">
-                            <img src={FlameFooter} alt="" className="w-5 h-5 flex-shrink-0" />
-                            <a
-                                href="https://wa.me/393337591610"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-white text-decoration-none text-base sm:text-lg"
-                            >
-                                +39 333 759 1610
-                            </a>
-                        </div>
                     </div>
 
                     {/* Social */}
